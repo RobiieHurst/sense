@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+body {
+    margin: 0;
+}
+
+h1, h2, h3, h4, a, p, li {
+    color: #000000;
+    font-family: 'Mukta', monospace;
+    font-weight: normal;
+}
