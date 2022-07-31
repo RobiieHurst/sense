@@ -1,24 +1,23 @@
 <script>
     import Card from "$lib/card.svelte";
+    import Hero from "$lib/hero_2.svelte";
 </script>
 
-<div class="index">
-    <!-- <p>
-        stuff
-    </p> -->
+    <Hero />
 
+<div class="index">
     <div class="row">
         <div class="column">
-            <Card id=1 title="Test"/>
+            <Card id="1" title="Test" />
         </div>
         <div class="column">
-            <Card id=1 title="Test"/>
+            <Card id="1" title="Test" />
         </div>
         <div class="column">
-            <Card id=1 title="Test"/>
+            <Card id="1" title="Test" />
         </div>
         <div class="column">
-            <Card id=1 title="Test"/>
+            <Card id="1" title="Test" />
         </div>
     </div>
 
@@ -31,6 +30,7 @@
         text-align: center;
         display: block;
         margin: 20px auto;
+        max-width: 960px;
     }
 
     * {

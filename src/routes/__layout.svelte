@@ -13,13 +13,12 @@
 			<a href="/">Tools</a>
 			<a href="/about">About</a>
 			<a href="/guides">Guides</a>
+			<a href="/wordsearch">WordSearch</a>
 		</div>
 	</nav>
 </header>
 <main>
-	<div class="guides">
-		<slot />
-	</div>
+	<slot />
 </main>
 <footer>
 	<p>Copyright 2022 SENSE Education</p>
@@ -30,7 +29,7 @@
 		text-align: center;
 	}
 	main {
-		max-width: 960px;
+		/* max-width: 960px; */
 		margin: 20px auto;
 	}
 	footer {
@@ -45,19 +44,19 @@
 	}
 
 	a:hover {
-		border: 1px solid #42A5FF;
+		border: 1px solid #42a5ff;
 	}
 
 	a {
 		margin-left: 10px;
 		padding: 8px;
 		border-radius: 20px;
-		border: 1px solid #FFF;
+		border: 1px solid #fff;
 	}
 	nav {
 		display: flex;
 		align-items: center;
-		max-width: 960px;
+		max-width: 2000px;
 		margin: 0 auto;
 		margin-top: 20px;
 		border-bottom: 2px solid grey;
