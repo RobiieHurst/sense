@@ -7,13 +7,13 @@
 	<nav>
 		<Title />
 		<div class="links">
-			<a href="/">Metaverse</a>
-			<a href="/">Multimedia</a>
+			<a href="/metaverse">Metaverse</a>
+			<!-- <a href="/">Multimedia</a>
 			<a href="/">Career Enhancement</a>
 			<a href="/">Tools</a>
 			<a href="/about">About</a>
 			<a href="/guides">Guides</a>
-			<a href="/wordsearch">WordSearch</a>
+			<a href="/wordsearch">WordSearch</a> -->
 		</div>
 	</nav>
 </header>

@@ -1,8 +1,8 @@
 <script>
-	import Particles from "svelte-particles";
+    import Particles from "svelte-particles";
 	import { loadFull } from "tsparticles";
 
-	let particlesConfig = {
+    let particlesConfig = {
 		fullScreen: { enable: false },
 		particles: {
 			number: {
@@ -53,7 +53,7 @@
 			line_linked: {
 				enable: true,
 				distance: 150,
-				color: "#ffffff",
+				color: "#fff",
 				opacity: 0.4,
 				width: 1,
 			},
@@ -130,6 +130,7 @@
 </script>
 
 <div class="hero">
+    <h1>Metaverse<span>- M&G Tutoring -</span></h1>
 	<div id="tsparticles">
 		<Particles
 			id="tsparticles"
@@ -138,41 +139,36 @@
 			{particlesInit}
 		/>
 	</div>
-
-	<h1>Sense<span>- Welcome to Education -</span></h1>
 </div>
 
 <style>
 	@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,300);
 
 	.hero {
-		height: 100vh;
+		height: 20vh;
 		position: relative;
 	}
 
 	#tsparticles {
-		position: absolute;
 		width: 100%;
 		height: 100%;
-		z-index: -1;
+        z-index: -1;
 		background-color: #42a5ff;
 	}
 
 	h1 {
 		position: absolute;
-		top: 50%;
+		top: 10%;
 		left: 50%;
-		-webkit-transform: translate(-50%, -50%);
 		transform: translate(-50%, -50%);
 		color: #FFF;
 		font: normal 600 72px/1 "Open Sans", sans-serif;
 		text-align: center;
-		white-space: nowrap;
 	}
 	h1 span {
 		display: block;
-		margin-top: 1em;
 		font-size: 40px;
 		font-weight: 300;
 	}
+
 </style>
