@@ -238,8 +238,8 @@
             0.265,
             1.55
         );
-        border-top: 2px solid rgba(0, 0, 0, 0.33);
-        border-right: 2px solid rgba(0, 0, 0, 0.33);
+        border-top: 2px solid #42a5ff;
+        border-right: 2px solid #42a5ff;
         float: right;
         position: relative;
         top: -30px;
