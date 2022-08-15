@@ -8,6 +8,7 @@
 		<Title />
 		<div class="links">
 			<a href="/metaverse">Metaverse</a>
+			<a href="/faq">FAQ</a>
 			<!-- <a href="/">Multimedia</a>
 			<a href="/">Career Enhancement</a>
 			<a href="/">Tools</a>
